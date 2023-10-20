@@ -43,7 +43,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: path.resolve(__dirname, 'tsconfig.json'),
   },
   plugins: ['@typescript-eslint', 'react', 'react-hooks', 'prettier'],
   rules: {
@@ -69,7 +68,7 @@ module.exports = {
     'import/extensions': ['error', 'ignorePackages', { ts: 'never', tsx: 'never' }],
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
-    'max-len': ['warn', { code: 100, ignoreComments: true, ignoreUrls: true }],
+    'max-len': ['warn', { code: 120, ignoreComments: true, ignoreUrls: true }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'import/prefer-default-export': 'off',
