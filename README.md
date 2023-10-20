@@ -1,2 +1,1 @@
-# eslint-config
-Eslint configuration to use with Prettier and Typescript
+# Eslint configuration to use with Prettier and Typescript
