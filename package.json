@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@aybykovskii/eslint-config",
   "version": "1.0.0",
   "author": "Aleksei Bykovskii<alesha.byk@gmail.com>",
   "description": "Eslint configuration to use with Prettier and Typescript",
